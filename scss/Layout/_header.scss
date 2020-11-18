@@ -1,0 +1,26 @@
+.l-header{
+  position: relative;
+  height: 74px;
+  display: flex;
+  &_logo{
+    display: flex;
+    p{
+      margin-top: 35px;
+    }
+    img{
+      margin: 20px 0px 0px 120px;
+      height: 40px;
+      width: 140px;
+    }
+  }
+  &_button{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    width: 320px;
+    height: 40px;
+    a{
+      font-size: 15px;
+    }
+  }
+}
