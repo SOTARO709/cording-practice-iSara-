@@ -1,0 +1,26 @@
+.c-block{
+  &:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-top: solid 4px;
+    border-left: solid 4px;
+    left: 0; 
+    top: 0;
+    color: #EBB94D;
+    }
+  &:after{
+      position: absolute;
+      content: "";
+      display: block;
+      width: 50px;
+      height: 50px;
+      border-bottom: solid 4px;
+      border-right: solid 4px;
+      right: 0; 
+      bottom: 0;
+      color: #EBB94D;
+    }
+}

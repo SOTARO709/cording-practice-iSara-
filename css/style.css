@@ -500,30 +500,258 @@ progress {
   font-size: 28px;
 }
 
-.l-main_free_text_top h1:before {
+.l-main_isara {
+  width: 100%;
+  height: 646px;
+  background-color: #FEF5E0;
+}
+
+.l-main_isara_wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.l-main_isara_top {
   position: absolute;
-  content: "";
-  display: block;
-  width: 50px;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  width: 850px;
+}
+
+.l-main_isara_top h1 {
+  text-align: center;
+  padding: 40px 10px;
+  font-size: 28px;
+}
+
+.l-main_isara_text {
+  text-align: center;
+  padding: 250px 0px 40px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.l-main_isara_flame {
+  width: 1170px;
+  height: 250px;
+  margin: 0 auto;
+  border: solid 2px #EBB94D;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.l-main_isara_flame_title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px 0px;
+}
+
+.l-main_isara_flame ul {
+  display: flex;
+  justify-content: center;
+}
+
+.l-main_isara_flame ul li {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0px;
+  width: 140px;
+  height: 150px;
+}
+
+.l-main_isara_flame ul li img {
   height: 50px;
-  border-top: solid 4px;
-  border-left: solid 4px;
-  left: 0;
-  top: 0;
+}
+
+.l-main_isara_flame ul li p {
+  font-size: 13px;
+  color: #A2A2A2;
+}
+
+.l-main_step {
+  position: relative;
+  text-align: center;
+}
+
+.l-main_step img {
+  display: block;
+  width: 100%;
+  height: 440px;
+}
+
+.l-main_step_text {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  color: #ffff;
+}
+
+.l-main_step_text h2 {
+  width: 1000px;
+  font-size: 28px;
+}
+
+.l-main_step_text p {
+  padding: 15px 0px 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.l-main_step_text p span {
   color: #EBB94D;
 }
 
-.l-main_free_text_top h1:after {
+.l-main_step ul {
+  display: flex;
   position: absolute;
-  content: "";
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-bottom: solid 4px;
-  border-right: solid 4px;
-  right: 0;
-  bottom: 0;
+  top: 310px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+
+.l-main_step ul li {
+  width: 370px;
+  height: 175px;
+  margin: 10px;
+  list-style: none;
+  border-radius: 5px;
+  background-color: #ffff;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.l-main_step ul p {
+  padding: 0px 0px 15px 0px;
+  font-weight: 400;
+}
+
+.l-main_step_yellow {
+  margin: 25px auto;
+  width: 80%;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #EBB94D;
+  color: #ffff;
+}
+
+.l-main_step_bangkok {
+  font-size: 14px;
+}
+
+.l-main_step_blue {
+  width: 100%;
+  height: 150px;
+  background-color: #046EA8;
+  margin: 0px;
+}
+
+.l-main_step_blue_wrapper {
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.l-main_step_blue_wrapper span {
   color: #EBB94D;
+}
+
+.l-main_study {
+  text-align: center;
+  height: 500px;
+}
+
+.l-main_study h2 {
+  padding-top: 60px;
+  font-size: 25px;
+}
+
+.l-main_study h2 span {
+  font-size: 15px;
+}
+
+.l-main_study_skill {
+  padding: 40px 0px 30px 0px;
+  font-size: 16px;
+}
+
+.l-main_study_icon img {
+  width: 220px;
+  height: 220px;
+  padding: 20px;
+}
+
+.l-main_study_text {
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.l-main_merit {
+  height: 1000px;
+  background-color: #FEF5E0;
+}
+
+.l-main_merit_wrapper {
+  padding: 40px;
+}
+
+.l-main_merit_top {
+  position: relative;
+  text-align: center;
+  width: 800px;
+  line-height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.l-main_merit_contents {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.l-main_merit_contents li {
+  list-style: none;
+  text-align: center;
+  margin: 10px;
+  width: 350px;
+  height: 400px;
+}
+
+.l-main_merit_contents li img {
+  width: 350px;
+}
+
+.l-main_merit_flame {
+  width: 1170px;
+  height: 250px;
+  margin: 0 auto;
+  border: solid 2px #EBB94D;
+  background: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.l-main_merit_flame h1 {
+  color: #EBB94D;
+  padding: 30px 0px 20px 0px;
+}
+
+.l-main_merit_caution {
+  text-align: center;
+  padding: 20px;
 }
 
 .c-button {
@@ -542,5 +770,31 @@ progress {
   color: #ffff;
   text-align: center;
   line-height: 40px;
+}
+
+.c-block:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-top: solid 4px;
+  border-left: solid 4px;
+  left: 0;
+  top: 0;
+  color: #EBB94D;
+}
+
+.c-block:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-bottom: solid 4px;
+  border-right: solid 4px;
+  right: 0;
+  bottom: 0;
+  color: #EBB94D;
 }
 /*# sourceMappingURL=style.css.map */
