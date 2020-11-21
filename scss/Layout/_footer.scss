@@ -1,0 +1,17 @@
+.l-footer{
+  height: 180px;
+  background-color: #ECECEC;
+  text-align: center;
+  a{
+    text-decoration: none;
+    color: #23527C;
+  }
+  p{
+    color: #6C6C6C;
+    font-size: 10px;
+    letter-spacing: 0.08rem;
+  }
+  &_top{
+    padding: 40px;
+  }
+}
