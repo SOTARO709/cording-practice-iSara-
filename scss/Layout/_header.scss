@@ -2,6 +2,10 @@
   position: relative;
   height: 74px;
   display: flex;
+  &_wrapper{
+    height: 74px;
+    background-color: #ffffff;
+  }
   &_logo{
     display: flex;
     p{
