@@ -363,6 +363,7 @@ progress {
 }
 
 .l-header {
+  position: relative;
   height: 74px;
   display: flex;
 }
@@ -376,7 +377,7 @@ progress {
   display: flex;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 990px) {
   .l-header_logo {
     display: block;
   }
@@ -386,19 +387,19 @@ progress {
   margin-top: 35px;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 990px) {
   .l-header_logo p {
     margin: -65px 0px 0px 10px;
   }
 }
 
 .l-header_logo img {
-  margin: 20px 0px 0px 100px;
+  margin: 20px 0px 0px 60px;
   height: 40px;
   width: 140px;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 990px) {
   .l-header_logo img {
     margin: 30px 0px 0px 10px;
   }
@@ -577,6 +578,12 @@ progress {
   font-weight: bold;
 }
 
+@media screen and (max-width: 1190px) {
+  .l-main_document_button a {
+    font-size: 18px;
+  }
+}
+
 .l-main_document_date {
   text-align: center;
   color: #ffffff;
@@ -588,6 +595,12 @@ progress {
   .l-main_document_date {
     padding: 0px 0px 25px 0px;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1190px) and (max-width: 1190px) {
+  .l-main_document_date {
+    font-size: 18px;
   }
 }
 
@@ -663,6 +676,12 @@ progress {
   color: #EBBB52;
 }
 
+@media screen and (max-width: 768px) {
+  .l-main_free_text_top {
+    display: block;
+  }
+}
+
 .l-main_free_text_top h2 {
   text-align: center;
   padding: 40px 10px;
@@ -679,13 +698,13 @@ progress {
 .l-main_isara {
   margin-top: -6px;
   width: 100%;
-  height: 646px;
   background-color: #FEF5E0;
 }
 
 .l-main_isara_wrapper {
   position: relative;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .l-main_isara_top {
@@ -734,11 +753,11 @@ progress {
 
 .l-main_isara_flame {
   width: 95%;
-  height: 250px;
   margin: 0 auto;
   border: solid 2px #EBB94D;
   background: #FFFFFF;
   border-radius: 5px;
+  padding-bottom: 40px;
 }
 
 .l-main_isara_flame_title {
@@ -748,12 +767,21 @@ progress {
   padding: 30px 0px;
 }
 
-.l-main_isara_flame ul {
+.l-main_isara_grid {
   display: flex;
   justify-content: center;
 }
 
-.l-main_isara_flame ul li {
+@media screen and (max-width: 768px) {
+  .l-main_isara_grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    margin: 0 auto;
+  }
+}
+
+.l-main_isara_grid_item {
   list-style: none;
   text-align: center;
   padding: 10px 0px;
@@ -761,11 +789,11 @@ progress {
   height: 150px;
 }
 
-.l-main_isara_flame ul li img {
+.l-main_isara_grid_item img {
   height: 50px;
 }
 
-.l-main_isara_flame ul li p {
+.l-main_isara_grid_item p {
   font-size: 13px;
   color: #A2A2A2;
 }
@@ -816,6 +844,12 @@ progress {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .l-main_step_text h2 {
+    font-size: 18px;
+  }
+}
+
 .l-main_step_text p {
   padding: 15px 0px 5px;
   font-size: 20px;
@@ -851,12 +885,25 @@ progress {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .l-main_step_wrapper {
+    top: 420px;
+  }
+}
+
 .l-main_step_container {
   width: 370px;
   height: 180px;
   background-color: #ffff;
   margin: 10px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_step_container {
+    width: 480px;
+    height: 150px;
+  }
 }
 
 .l-main_step_yellow {
@@ -890,6 +937,12 @@ progress {
 @media screen and (max-width: 1190px) {
   .l-main_step_blue_wrapper {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_step_blue_wrapper {
+    font-size: 14px;
   }
 }
 
@@ -1084,6 +1137,12 @@ progress {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .l-main_member {
+    height: 1700px;
+  }
+}
+
 .l-main_member_back {
   width: 100%;
   height: 820px;
@@ -1093,6 +1152,12 @@ progress {
 @media screen and (max-width: 990px) {
   .l-main_member_back {
     height: 1540px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_member_back {
+    height: 1700px;
   }
 }
 
@@ -1170,6 +1235,13 @@ progress {
   .l-main_member_text {
     width: 700px;
     height: 220px;
+  }
+}
+
+@media screen and (max-width: 1190px) and (max-width: 640px) {
+  .l-main_member_text {
+    width: 480px;
+    height: 250px;
   }
 }
 
@@ -1287,8 +1359,7 @@ progress {
 }
 
 .l-main_question_voice_wrapper {
-  width: 800px;
-  height: 240px;
+  width: 900px;
   display: flex;
   margin: 0 auto;
   margin-top: 10px;
@@ -1298,6 +1369,7 @@ progress {
 @media screen and (max-width: 1190px) {
   .l-main_question_voice_wrapper {
     margin: 0 0 20px 0;
+    width: 100%;
   }
 }
 
@@ -1305,6 +1377,13 @@ progress {
   width: 240px;
   height: 240px;
   border: solid 4px #EBB94D;
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_question_voice_wrapper img {
+    width: 180px;
+    height: 180px;
+  }
 }
 
 .l-main_question_voice_text {
@@ -1360,14 +1439,26 @@ progress {
   font-size: 28px;
 }
 
+@media screen and (max-width: 640px) {
+  .l-main_learn_top h1 {
+    font-size: 18px;
+  }
+}
+
 .l-main_learn_top p {
-  padding: 10px;
+  padding-top: 10px;
   font-size: 18px;
 }
 
 @media screen and (max-width: 990px) {
   .l-main_learn_top p {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_learn_top p {
+    font-size: 12px;
   }
 }
 
@@ -1410,6 +1501,12 @@ progress {
 @media screen and (max-width: 990px) {
   .l-main_learn_wrapper table {
     width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_learn_wrapper table {
+    width: 520px;
   }
 }
 
@@ -1802,9 +1899,22 @@ progress {
   font-size: 28px;
 }
 
+@media screen and (max-width: 640px) {
+  .l-main_messege_top h2 {
+    top: 300px;
+    font-size: 10px;
+  }
+}
+
 .l-main_messege_top P {
   padding: 20px;
   font-size: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .l-main_messege_top P {
+    font-size: 10px;
+  }
 }
 
 .l-main_messege_wrapper {
@@ -1841,6 +1951,7 @@ progress {
 @media screen and (max-width: 990px) {
   .l-main_messege_text {
     padding: 30px;
+    width: auto;
   }
 }
 
@@ -1917,7 +2028,6 @@ progress {
 .l-main_qa_wrapper {
   position: relative;
   width: 100%;
-  height: 60px;
   border: solid 1px rgba(0, 0, 0, 0.3);
   line-height: 60px;
   margin: 5px auto;
